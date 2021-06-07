@@ -1,0 +1,16 @@
+D:\Programs\BD\Generation\Generation\Generation\bin\Debug\net5.0\Generation.exe
+D:\Programs\BD\Generation\Generation\Generation\bin\Debug\net5.0\Generation.deps.json
+D:\Programs\BD\Generation\Generation\Generation\bin\Debug\net5.0\Generation.runtimeconfig.json
+D:\Programs\BD\Generation\Generation\Generation\bin\Debug\net5.0\Generation.runtimeconfig.dev.json
+D:\Programs\BD\Generation\Generation\Generation\bin\Debug\net5.0\Generation.dll
+D:\Programs\BD\Generation\Generation\Generation\bin\Debug\net5.0\ref\Generation.dll
+D:\Programs\BD\Generation\Generation\Generation\bin\Debug\net5.0\Generation.pdb
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\Generation.csprojAssemblyReference.cache
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\Generation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\Generation.AssemblyInfoInputs.cache
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\Generation.AssemblyInfo.cs
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\Generation.csproj.CoreCompileInputs.cache
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\Generation.dll
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\ref\Generation.dll
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\Generation.pdb
+D:\Programs\BD\Generation\Generation\Generation\obj\Debug\net5.0\Generation.genruntimeconfig.cache
