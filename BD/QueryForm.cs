@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Data;
 using System.Drawing;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -124,6 +126,30 @@ namespace BD
             else
                 dataGridView1.DataSource = Queries.Execute(QueryType,textBox1.Text, textBox2.Text);
             Count_label.Text = dataGridView1.Rows.Count.ToString();
+            MakeReports();
+        }
+
+        async private void MakeReports()
+        {
+            Reports rp;
+            if (QueryType == 5)
+                rp = new Reports("6", (DataTable)dataGridView1.DataSource);
+            else if (QueryType == 10)
+                rp = new Reports("11", (DataTable)dataGridView1.DataSource);
+            else
+                return;
+            await Task.Run(() =>
+            {
+                try
+                {
+                    rp.HtmlReport();
+                    rp.ExcelReport();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ошибка: " + ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            });
         }
     }
 }

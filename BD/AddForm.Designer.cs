@@ -224,7 +224,7 @@ namespace BD
             this.num1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.num1.Location = new System.Drawing.Point(584, 80);
             this.num1.Maximum = new decimal(new int[] {
-            10000000,
+            2147483647,
             0,
             0,
             0});
@@ -257,7 +257,7 @@ namespace BD
             this.num2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.num2.Location = new System.Drawing.Point(367, 280);
             this.num2.Maximum = new decimal(new int[] {
-            10000000,
+            2147483647,
             0,
             0,
             0});
@@ -290,7 +290,7 @@ namespace BD
             this.num3.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.num3.Location = new System.Drawing.Point(367, 328);
             this.num3.Maximum = new decimal(new int[] {
-            10000000,
+            2147483647,
             0,
             0,
             0});
@@ -336,7 +336,7 @@ namespace BD
             this.num5.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.num5.Location = new System.Drawing.Point(367, 423);
             this.num5.Maximum = new decimal(new int[] {
-            10000000,
+            2147483647,
             0,
             0,
             0});

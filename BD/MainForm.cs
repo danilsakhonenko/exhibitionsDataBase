@@ -16,6 +16,7 @@ namespace BD
         FieldForm FieldForm { get; set; }
         ViewForm ViewForm { get; set; }
         QueryForm QueryForm { get; set; }
+        DiagramsForm DiagramsForm { get; set; }
         public MainForm()
         {
             InitializeComponent();
@@ -401,6 +402,21 @@ namespace BD
         private void QueryC_Click(object sender, EventArgs e)
         {
             StartQueryForm(18);
+        }
+
+        private void StartDiagramsForm(int i)
+        {
+            if (DiagramsForm== null || DiagramsForm.IsDisposed)
+            {
+                DiagramsForm = new DiagramsForm(i);
+                DiagramsForm.Show();
+            }
+
+        }
+
+        private void ExTypesDiagram_item_Click(object sender, EventArgs e)
+        {
+            StartDiagramsForm(1);
         }
     }
 }

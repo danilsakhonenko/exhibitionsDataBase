@@ -29,10 +29,10 @@ namespace BD
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Add_button = new System.Windows.Forms.Button();
             this.delete_button = new System.Windows.Forms.Button();
             this.Heading_label = new System.Windows.Forms.Label();
@@ -73,7 +73,8 @@ namespace BD
             this.Query16 = new System.Windows.Forms.ToolStripMenuItem();
             this.QueryB1 = new System.Windows.Forms.ToolStripMenuItem();
             this.QueryB2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.Reports_item = new System.Windows.Forms.ToolStripMenuItem();
+            this.Diagrams_item = new System.Windows.Forms.ToolStripMenuItem();
+            this.ExTypesDiagram_item = new System.Windows.Forms.ToolStripMenuItem();
             this.label4 = new System.Windows.Forms.Label();
             this.count_label = new System.Windows.Forms.Label();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -206,7 +207,7 @@ namespace BD
             this.Tables_item,
             this.Directories_item,
             this.Queries_item,
-            this.Reports_item});
+            this.Diagrams_item});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
@@ -498,11 +499,20 @@ namespace BD
             this.QueryB2.Text = "b) Определить среднее количество посетителей по каждой стране";
             this.QueryB2.Click += new System.EventHandler(this.QueryB2_Click);
             // 
-            // Reports_item
+            // Diagrams_item
             // 
-            this.Reports_item.Name = "Reports_item";
-            this.Reports_item.Size = new System.Drawing.Size(88, 29);
-            this.Reports_item.Text = "Отчеты";
+            this.Diagrams_item.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ExTypesDiagram_item});
+            this.Diagrams_item.Name = "Diagrams_item";
+            this.Diagrams_item.Size = new System.Drawing.Size(125, 29);
+            this.Diagrams_item.Text = "Диаграммы";
+            // 
+            // ExTypesDiagram_item
+            // 
+            this.ExTypesDiagram_item.Name = "ExTypesDiagram_item";
+            this.ExTypesDiagram_item.Size = new System.Drawing.Size(393, 30);
+            this.ExTypesDiagram_item.Text = "Количество выставок каждого типа";
+            this.ExTypesDiagram_item.Click += new System.EventHandler(this.ExTypesDiagram_item_Click);
             // 
             // label4
             // 
@@ -913,22 +923,22 @@ namespace BD
             this.Main_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Main_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Main_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.Main_table.ColumnHeadersHeight = 35;
             this.Main_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.Main_table.Location = new System.Drawing.Point(24, 109);
+            this.Main_table.Location = new System.Drawing.Point(24, 112);
             this.Main_table.Name = "Main_table";
             this.Main_table.ReadOnly = true;
             this.Main_table.RowHeadersVisible = false;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Main_table.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Main_table.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.Main_table.RowTemplate.Height = 25;
             this.Main_table.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Main_table.Size = new System.Drawing.Size(1032, 612);
@@ -943,22 +953,22 @@ namespace BD
             this.Directories_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Directories_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Directories_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.Directories_table.ColumnHeadersHeight = 35;
             this.Directories_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Directories_table.Location = new System.Drawing.Point(24, 109);
             this.Directories_table.Name = "Directories_table";
             this.Directories_table.ReadOnly = true;
             this.Directories_table.RowHeadersVisible = false;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Directories_table.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Directories_table.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.Directories_table.RowTemplate.Height = 25;
             this.Directories_table.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Directories_table.Size = new System.Drawing.Size(1032, 612);
@@ -1135,7 +1145,6 @@ namespace BD
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem Tables_item;
-        private System.Windows.Forms.ToolStripMenuItem Reports_item;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
@@ -1148,9 +1157,7 @@ namespace BD
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
         private System.Windows.Forms.DataGridView Main_table;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
         private System.Windows.Forms.DataGridView Directories_table;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn2;
         private System.Windows.Forms.ToolStripMenuItem Directories_item;
         private System.Windows.Forms.ToolStripMenuItem Queries_item;
         private System.Windows.Forms.ToolStripMenuItem Exhibitions_item;
@@ -1191,6 +1198,8 @@ namespace BD
         private System.Windows.Forms.ToolStripMenuItem QueryC;
         private System.Windows.Forms.ToolStripMenuItem QueryB1;
         private System.Windows.Forms.ToolStripMenuItem QueryB2;
+        private System.Windows.Forms.ToolStripMenuItem Diagrams_item;
+        private System.Windows.Forms.ToolStripMenuItem ExTypesDiagram_item;
     }
 }
 
