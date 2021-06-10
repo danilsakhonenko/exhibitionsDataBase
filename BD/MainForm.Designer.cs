@@ -29,10 +29,10 @@ namespace BD
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Add_button = new System.Windows.Forms.Button();
             this.delete_button = new System.Windows.Forms.Button();
             this.Heading_label = new System.Windows.Forms.Label();
@@ -52,6 +52,7 @@ namespace BD
             this.Cities_item = new System.Windows.Forms.ToolStripMenuItem();
             this.Countries_item = new System.Windows.Forms.ToolStripMenuItem();
             this.Queries_item = new System.Windows.Forms.ToolStripMenuItem();
+            this.EasyQueries = new System.Windows.Forms.ToolStripMenuItem();
             this.Query1 = new System.Windows.Forms.ToolStripMenuItem();
             this.Query2 = new System.Windows.Forms.ToolStripMenuItem();
             this.Query3 = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,6 +63,16 @@ namespace BD
             this.Query8 = new System.Windows.Forms.ToolStripMenuItem();
             this.Query9 = new System.Windows.Forms.ToolStripMenuItem();
             this.Query10 = new System.Windows.Forms.ToolStripMenuItem();
+            this.QueryC = new System.Windows.Forms.ToolStripMenuItem();
+            this.HardQueries = new System.Windows.Forms.ToolStripMenuItem();
+            this.Query11 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Query12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Query13 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Query14 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Query15 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Query16 = new System.Windows.Forms.ToolStripMenuItem();
+            this.QueryB1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.QueryB2 = new System.Windows.Forms.ToolStripMenuItem();
             this.Reports_item = new System.Windows.Forms.ToolStripMenuItem();
             this.label4 = new System.Windows.Forms.Label();
             this.count_label = new System.Windows.Forms.Label();
@@ -308,6 +319,15 @@ namespace BD
             // Queries_item
             // 
             this.Queries_item.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.EasyQueries,
+            this.HardQueries});
+            this.Queries_item.Name = "Queries_item";
+            this.Queries_item.Size = new System.Drawing.Size(84, 25);
+            this.Queries_item.Text = "Запросы";
+            // 
+            // EasyQueries
+            // 
+            this.EasyQueries.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Query1,
             this.Query2,
             this.Query3,
@@ -317,57 +337,58 @@ namespace BD
             this.Query7,
             this.Query8,
             this.Query9,
-            this.Query10});
-            this.Queries_item.Name = "Queries_item";
-            this.Queries_item.Size = new System.Drawing.Size(84, 25);
-            this.Queries_item.Text = "Запросы";
+            this.Query10,
+            this.QueryC});
+            this.EasyQueries.Name = "EasyQueries";
+            this.EasyQueries.Size = new System.Drawing.Size(211, 26);
+            this.EasyQueries.Text = "Простые запросы";
             // 
             // Query1
             // 
             this.Query1.Name = "Query1";
-            this.Query1.Size = new System.Drawing.Size(925, 26);
+            this.Query1.Size = new System.Drawing.Size(850, 26);
             this.Query1.Text = "1) Вывести все экспонаты заданного типа";
             this.Query1.Click += new System.EventHandler(this.Query1_Click);
             // 
             // Query2
             // 
             this.Query2.Name = "Query2";
-            this.Query2.Size = new System.Drawing.Size(925, 26);
-            this.Query2.Text = "2) Вывести все участия экспоната в выставках по его названию";
+            this.Query2.Size = new System.Drawing.Size(850, 26);
+            this.Query2.Text = "2) Вывести все участия экспонатов в выставках по названию экспоната";
             this.Query2.Click += new System.EventHandler(this.Query2_Click);
             // 
             // Query3
             // 
             this.Query3.Name = "Query3";
-            this.Query3.Size = new System.Drawing.Size(925, 26);
+            this.Query3.Size = new System.Drawing.Size(850, 26);
             this.Query3.Text = "3) Вывести информацию о музеях по вводимому году создания";
             this.Query3.Click += new System.EventHandler(this.Query3_Click);
             // 
             // Query4
             // 
             this.Query4.Name = "Query4";
-            this.Query4.Size = new System.Drawing.Size(925, 26);
+            this.Query4.Size = new System.Drawing.Size(850, 26);
             this.Query4.Text = "4) Вывести все выставки, которые начались в период с – по";
             this.Query4.Click += new System.EventHandler(this.Query4_Click);
             // 
             // Query5
             // 
             this.Query5.Name = "Query5";
-            this.Query5.Size = new System.Drawing.Size(925, 26);
+            this.Query5.Size = new System.Drawing.Size(850, 26);
             this.Query5.Text = "5) Вывести названия выставок и страну в которой они проходили";
             this.Query5.Click += new System.EventHandler(this.Query5_Click);
             // 
             // Query6
             // 
             this.Query6.Name = "Query6";
-            this.Query6.Size = new System.Drawing.Size(925, 26);
-            this.Query6.Text = "6) Вывести информацию об экспонате и тематику выставки в которой он участвует";
+            this.Query6.Size = new System.Drawing.Size(850, 26);
+            this.Query6.Text = "6) Вывести информацию об экспонате и тематики выставок в которых он участвовал";
             this.Query6.Click += new System.EventHandler(this.Query6_Click);
             // 
             // Query7
             // 
             this.Query7.Name = "Query7";
-            this.Query7.Size = new System.Drawing.Size(925, 26);
+            this.Query7.Size = new System.Drawing.Size(850, 26);
             this.Query7.Text = "7) Вывести информацию об экспонате, название музея, которому он принадлежит и фор" +
     "му собственности";
             this.Query7.Click += new System.EventHandler(this.Query7_Click);
@@ -375,24 +396,107 @@ namespace BD
             // Query8
             // 
             this.Query8.Name = "Query8";
-            this.Query8.Size = new System.Drawing.Size(925, 26);
+            this.Query8.Size = new System.Drawing.Size(850, 26);
             this.Query8.Text = "8) Вывести информацию о городах, в которых нет музеев";
             this.Query8.Click += new System.EventHandler(this.Query8_Click);
             // 
             // Query9
             // 
             this.Query9.Name = "Query9";
-            this.Query9.Size = new System.Drawing.Size(925, 26);
-            this.Query9.Text = "9) Вывести информацию об экспонатах со страховой ценой, больше заданной и о музея" +
-    "х, которым они принадлежат";
+            this.Query9.Size = new System.Drawing.Size(850, 26);
+            this.Query9.Text = "9) Вывести экспонаты со страховой ценой, больше заданной и музеи, которым они при" +
+    "надлежат";
             this.Query9.Click += new System.EventHandler(this.Query9_Click);
             // 
             // Query10
             // 
             this.Query10.Name = "Query10";
-            this.Query10.Size = new System.Drawing.Size(925, 26);
-            this.Query10.Text = "10) Вывести города и выставки, проходившие в них в период с-по";
+            this.Query10.Size = new System.Drawing.Size(850, 26);
+            this.Query10.Text = "10) Вывести города и названия выставок, проходивших в них в период с-по";
             this.Query10.Click += new System.EventHandler(this.Query10_Click);
+            // 
+            // QueryC
+            // 
+            this.QueryC.Name = "QueryC";
+            this.QueryC.Size = new System.Drawing.Size(850, 26);
+            this.QueryC.Text = "c) Определить расходы на организацию каждой выставки за период времени (с_ по_ )";
+            this.QueryC.Click += new System.EventHandler(this.QueryC_Click);
+            // 
+            // HardQueries
+            // 
+            this.HardQueries.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Query11,
+            this.Query12,
+            this.Query13,
+            this.Query14,
+            this.Query15,
+            this.Query16,
+            this.QueryB1,
+            this.QueryB2});
+            this.HardQueries.Name = "HardQueries";
+            this.HardQueries.Size = new System.Drawing.Size(211, 26);
+            this.HardQueries.Text = "Сложные запросы";
+            // 
+            // Query11
+            // 
+            this.Query11.Name = "Query11";
+            this.Query11.Size = new System.Drawing.Size(1051, 26);
+            this.Query11.Text = "11) Вывести количество музеев в каждом городе";
+            this.Query11.Click += new System.EventHandler(this.Query11_Click);
+            // 
+            // Query12
+            // 
+            this.Query12.Name = "Query12";
+            this.Query12.Size = new System.Drawing.Size(1051, 26);
+            this.Query12.Text = "12) Вывести организаторов, которые проводили выставки в период с_ по_ и количеств" +
+    "о выставок";
+            this.Query12.Click += new System.EventHandler(this.Query12_Click);
+            // 
+            // Query13
+            // 
+            this.Query13.Name = "Query13";
+            this.Query13.Size = new System.Drawing.Size(1051, 26);
+            this.Query13.Text = "13) Вывести названия выставок с общим количеством посетителей, превышающим заданн" +
+    "ое значение";
+            this.Query13.Click += new System.EventHandler(this.Query13_Click);
+            // 
+            // Query14
+            // 
+            this.Query14.Name = "Query14";
+            this.Query14.Size = new System.Drawing.Size(1051, 26);
+            this.Query14.Text = "14) Вывести авторов и общую ценность экспонатов, год реставрации которых меньше з" +
+    "аданного, а общая ценность больше заданной";
+            this.Query14.Click += new System.EventHandler(this.Query14_Click);
+            // 
+            // Query15
+            // 
+            this.Query15.Name = "Query15";
+            this.Query15.Size = new System.Drawing.Size(1051, 26);
+            this.Query15.Text = "15) Вывести выставки, маркетинговые затраты на которые выше среднего значения по " +
+    "всем выставкам";
+            this.Query15.Click += new System.EventHandler(this.Query15_Click);
+            // 
+            // Query16
+            // 
+            this.Query16.Name = "Query16";
+            this.Query16.Size = new System.Drawing.Size(1051, 26);
+            this.Query16.Text = "16) Выдать информацию о музеях, у которых год создания меньше среднего года созда" +
+    "ния среди всех музеев";
+            this.Query16.Click += new System.EventHandler(this.Query16_Click);
+            // 
+            // QueryB1
+            // 
+            this.QueryB1.Name = "QueryB1";
+            this.QueryB1.Size = new System.Drawing.Size(1051, 26);
+            this.QueryB1.Text = "b) Определить среднее количество посетителей по каждой выставке";
+            this.QueryB1.Click += new System.EventHandler(this.QueryB1_Click);
+            // 
+            // QueryB2
+            // 
+            this.QueryB2.Name = "QueryB2";
+            this.QueryB2.Size = new System.Drawing.Size(1051, 26);
+            this.QueryB2.Text = "b) Определить среднее количество посетителей по каждой стране";
+            this.QueryB2.Click += new System.EventHandler(this.QueryB2_Click);
             // 
             // Reports_item
             // 
@@ -809,22 +913,22 @@ namespace BD
             this.Main_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Main_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Main_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.Main_table.ColumnHeadersHeight = 28;
             this.Main_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Main_table.Location = new System.Drawing.Point(24, 96);
             this.Main_table.Name = "Main_table";
             this.Main_table.ReadOnly = true;
             this.Main_table.RowHeadersVisible = false;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Main_table.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Main_table.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.Main_table.RowTemplate.Height = 25;
             this.Main_table.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Main_table.Size = new System.Drawing.Size(952, 540);
@@ -839,22 +943,22 @@ namespace BD
             this.Directories_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Directories_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Directories_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.Directories_table.ColumnHeadersHeight = 28;
             this.Directories_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Directories_table.Location = new System.Drawing.Point(24, 96);
             this.Directories_table.Name = "Directories_table";
             this.Directories_table.ReadOnly = true;
             this.Directories_table.RowHeadersVisible = false;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Directories_table.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Directories_table.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.Directories_table.RowTemplate.Height = 25;
             this.Directories_table.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Directories_table.Size = new System.Drawing.Size(952, 540);
@@ -1066,6 +1170,7 @@ namespace BD
         private System.Windows.Forms.Button Generate_button;
         private System.Windows.Forms.Button Clear_button;
         private System.Windows.Forms.Button View_button;
+        private System.Windows.Forms.ToolStripMenuItem EasyQueries;
         private System.Windows.Forms.ToolStripMenuItem Query1;
         private System.Windows.Forms.ToolStripMenuItem Query2;
         private System.Windows.Forms.ToolStripMenuItem Query3;
@@ -1076,6 +1181,16 @@ namespace BD
         private System.Windows.Forms.ToolStripMenuItem Query8;
         private System.Windows.Forms.ToolStripMenuItem Query9;
         private System.Windows.Forms.ToolStripMenuItem Query10;
+        private System.Windows.Forms.ToolStripMenuItem HardQueries;
+        private System.Windows.Forms.ToolStripMenuItem Query11;
+        private System.Windows.Forms.ToolStripMenuItem Query12;
+        private System.Windows.Forms.ToolStripMenuItem Query13;
+        private System.Windows.Forms.ToolStripMenuItem Query14;
+        private System.Windows.Forms.ToolStripMenuItem Query15;
+        private System.Windows.Forms.ToolStripMenuItem Query16;
+        private System.Windows.Forms.ToolStripMenuItem QueryC;
+        private System.Windows.Forms.ToolStripMenuItem QueryB1;
+        private System.Windows.Forms.ToolStripMenuItem QueryB2;
     }
 }
 

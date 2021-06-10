@@ -138,21 +138,21 @@ namespace BD
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(48, 64);
+            this.label1.Location = new System.Drawing.Point(128, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 25);
+            this.label1.Size = new System.Drawing.Size(25, 25);
             this.label1.TabIndex = 7;
-            this.label1.Text = "1:";
+            this.label1.Text = "с:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(520, 64);
+            this.label2.Location = new System.Drawing.Point(584, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(26, 25);
+            this.label2.Size = new System.Drawing.Size(38, 25);
             this.label2.TabIndex = 7;
-            this.label2.Text = "2:";
+            this.label2.Text = "по:";
             // 
             // QueryForm
             // 
@@ -169,6 +169,7 @@ namespace BD
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MinimumSize = new System.Drawing.Size(850, 650);
             this.Name = "QueryForm";
             this.Text = "Запросы";

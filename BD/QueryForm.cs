@@ -16,83 +16,100 @@ namespace BD
 
         private void QueryForm_Load(object sender, EventArgs e)
         {
-            if (QueryType == 0)
-            {
-                textBox2.Visible = false;
-                label2.Visible = false;
-                label1.Location = new Point(label1.Location.X - 25, label1.Location.Y);
-                label1.Text = "Тип экспоната:";
-                Header.Text = "Вывести все экспонаты заданного типа";
-            }
-            else if (QueryType == 1)
-            {
-                textBox2.Visible = false;
-                label2.Visible = false;
-                label1.Text = "Название:";
-                Header.Text = "Вывести все участия экспоната в выставках по его названию";
-            }
-            else if (QueryType == 2)
-            {
-                textBox2.Visible = false; 
-                label2.Visible = false;
-                label1.Text = "Год создания:";
-                label1.Location=new Point(label1.Location.X - 25, label1.Location.Y);
-                Header.Text = "Вывести информацию о музеях по вводимому году создания";
-            }
-            else if (QueryType == 3)
-            {
-                label1.Text = "c:";
-                label1.Location = new Point(label1.Location.X + 25, label1.Location.Y);
-                label2.Text = "по:";
-                label2.Location = new Point(label2.Location.X + 25, label2.Location.Y);
-                Header.Text = "Вывести все выставки, которые начались в период с – по";
-            }
-            else if (QueryType == 4)
+            if((QueryType>3 && QueryType < 8)||(QueryType>13 && QueryType < 18) || QueryType == 10)
             {
                 textBox2.Visible = false;
                 textBox1.Visible = false;
                 label2.Visible = false;
                 label1.Visible = false;
-                Header.Text = "Вывести названия выставок и страну в которой они проходили";
+                switch (QueryType)
+                {
+                    case 4:
+                        Header.Text = "Вывести названия выставок и страну в которой они проходили";
+                        break;
+                    case 5:
+                        Header.Text = "Вывести информацию об экспонате и тематики выставок в которых он участвовал";
+                        break;
+                    case 6:
+                        Header.Text = "Вывести информацию об экспонате, название музея, которому он принадлежит \nи форму собственности";
+                        break;
+                    case 7:
+                        Header.Text = "Вывести информацию о городах, в которых нет музеев";
+                        break;
+                    case 10:
+                        Header.Text = "Вывести количество музеев в каждом городе";
+                        break;
+                    case 14:
+                        Header.Text = "Вывести выставки, маркетинговые затраты на которые выше среднего значения \nпо всем выставкам";
+                        break;
+                    case 15:
+                        Header.Text = "Выдать информацию о музеях, у которых год создания меньше среднего года \nсоздания среди всех музеев";
+                        break;
+                    case 16:
+                        Header.Text = "Определить среднее количество посетителей по каждой выставке";
+                        break;
+                    case 17:
+                        Header.Text = "Определить среднее количество посетителей по каждой стране";
+                        break;
+
+                }
             }
-            else if (QueryType == 5)
+            else if((QueryType > -1 && QueryType < 3) || QueryType==8 || QueryType == 12)
             {
                 textBox2.Visible = false;
-                textBox1.Visible = false;
                 label2.Visible = false;
-                label1.Visible = false;
-                Header.Text = "Вывести информацию об экспонате и тематику выставки в которой он участвует";
+                label1.Location = new Point(label1.Location.X - 105, label1.Location.Y);
+                switch (QueryType)
+                {
+                    case 0:
+                        label1.Text = "Тип экспоната:";
+                        Header.Text = "Вывести все экспонаты заданного типа";
+                        break;
+                    case 1:
+                        label1.Text = "Название:";
+                        Header.Text = "Вывести все участия экспонатов в выставках по названию экспоната";
+                        break;
+                    case 2:
+                        label1.Text = "Год создания:";
+                        Header.Text = "Вывести информацию о музеях по вводимому году создания";
+                        break;
+                    case 8:
+                        label1.Text = "Цена:";
+                        Header.Text = "Вывести экспонаты со страховой ценой, больше заданной и музеи, которым они \nпринадлежат";
+                        break;
+                    case 12:
+                        label1.Text = "Кол-во посетителей:";
+                        label1.Location = new Point(label1.Location.X - 15, label1.Location.Y);
+                        textBox1.Location = new Point(textBox1.Location.X + 35, textBox1.Location.Y);
+                        Header.Text = "Вывести названия выставок с общим количеством посетителей, превышающим \nзаданное значение";
+                        break;
+
+                }
             }
-            else if (QueryType == 6)
+            else
             {
-                textBox2.Visible = false;
-                textBox1.Visible = false;
-                label2.Visible = false;
-                label1.Visible = false;
-                Header.Text = "Вывести информацию об экспонате, название музея, которому он принадлежит \nи форму собственности";
-            }
-            else if (QueryType == 7)
-            {
-                textBox2.Visible = false;
-                textBox1.Visible = false;
-                label2.Visible = false;
-                label1.Visible = false;
-                Header.Text = "Вывести информацию о городах, в которых нет музеев";
-            }
-            else if (QueryType == 8)
-            {
-                textBox2.Visible = false;
-                label2.Visible = false;
-                label1.Text = "Цена:";
-                Header.Text = "Вывести информацию об экспонатах со страховой ценой, больше заданной и о музеях, \nкоторым они принадлежат";
-            }
-            else if (QueryType == 9)
-            {
-                label1.Text = "с:";
-                label1.Location = new Point(label1.Location.X + 25, label1.Location.Y);
-                label2.Text = "по:";
-                label2.Location = new Point(label2.Location.X + 25, label2.Location.Y);
-                Header.Text = "Вывести города и выставки, проходившие в них в период с-по";
+                switch (QueryType) 
+                {
+                    case 3:
+                        Header.Text = "Вывести все выставки, которые начались в период с – по";
+                        break;
+                    case 9:
+                        Header.Text = "Вывести города и названия выставок, проходивших в них в период с-по";
+                        break;
+                    case 11:
+                        Header.Text = "Вывести организаторов, которые проводили выставки в период с_ по_ и количество \nвыставок";
+                        break;
+                    case 13:
+                        label1.Text = "Год:";
+                        label1.Location = new Point(label1.Location.X - 15, textBox1.Location.Y);
+                        label2.Text = "Цена:";
+                        label2.Location = new Point(label2.Location.X - 15, textBox1.Location.Y);
+                        Header.Text = "Вывести авторов и общую ценность их экспонатов, год реставрации которых \nменьше заданного года, а общая ценность больше заданной";
+                        break;
+                    case 18:
+                        Header.Text = "Определить расходы на организацию каждой выставки за период времени с_ по_";
+                        break;
+                }
             }
         }
 

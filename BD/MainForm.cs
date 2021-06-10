@@ -357,5 +357,50 @@ namespace BD
         {
             StartQueryForm(0);
         }
+
+        private void Query11_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(10);
+        }
+
+        private void Query12_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(11);
+        }
+
+        private void Query13_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(12);
+        }
+
+        private void Query14_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(13);
+        }
+
+        private void Query15_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(14);
+        }
+
+        private void Query16_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(15);
+        }
+
+        private void QueryB1_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(16);
+        }
+
+        private void QueryB2_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(17);
+        }
+
+        private void QueryC_Click(object sender, EventArgs e)
+        {
+            StartQueryForm(18);
+        }
     }
 }

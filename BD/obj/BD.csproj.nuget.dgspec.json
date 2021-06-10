@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BD\\Project\\BD\\BD\\BD.csproj": {}
+    "D:\\Programs\\BD\\BD\\BD\\BD.csproj": {}
   },
   "projects": {
-    "E:\\BD\\Project\\BD\\BD\\BD.csproj": {
+    "D:\\Programs\\BD\\BD\\BD\\BD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BD\\Project\\BD\\BD\\BD.csproj",
+        "projectUniqueName": "D:\\Programs\\BD\\BD\\BD\\BD.csproj",
         "projectName": "BD",
-        "projectPath": "E:\\BD\\Project\\BD\\BD\\BD.csproj",
-        "packagesPath": "C:\\Users\\goattye\\.nuget\\packages\\",
-        "outputPath": "E:\\BD\\Project\\BD\\BD\\obj\\",
+        "projectPath": "D:\\Programs\\BD\\BD\\BD\\BD.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\Programs\\BD\\BD\\BD\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programs\\Microsoft VS Instruments SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\goattye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

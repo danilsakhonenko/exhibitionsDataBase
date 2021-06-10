@@ -73,7 +73,7 @@ namespace BD
             if (e.KeyCode == Keys.Right)
             {
                 textBox1.Text = "postgres";
-                textBox2.Text = "1956";
+                textBox2.Text = "1234";
                 Start();
             }
 
