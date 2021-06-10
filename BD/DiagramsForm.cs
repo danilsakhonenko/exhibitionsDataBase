@@ -37,7 +37,7 @@ namespace BD
             using (NpgsqlConnection con = Connection.GetConnection())
             {
                 string Query = "SELECT t.type,(COUNT(t.exhibition_t_id) / (SELECT COUNT(*) FROM exhibitions)::float) " +
-                    "FROM exhibition_types t JOIN exhibitions e ON t.exhibition_t_id = e.tp_id GROUP BY(t.type)";
+                    "FROM exhibition_types t JOIN exhibitions e ON t.exhibition_t_id = e.tp_id GROUP BY(t.type) ORDER BY (t.type)";
                 con.Open();
                 try
                 {
