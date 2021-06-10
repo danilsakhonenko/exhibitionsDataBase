@@ -41,7 +41,7 @@ namespace BD
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(168, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(205, 30);
@@ -51,7 +51,7 @@ namespace BD
             // Action_button
             // 
             this.Action_button.Enabled = false;
-            this.Action_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Action_button.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.Action_button.Location = new System.Drawing.Point(360, 216);
             this.Action_button.Name = "Action_button";
             this.Action_button.Size = new System.Drawing.Size(160, 50);
@@ -62,7 +62,7 @@ namespace BD
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.button2.Location = new System.Drawing.Point(16, 216);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 50);
@@ -74,7 +74,7 @@ namespace BD
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.label2.Location = new System.Drawing.Point(80, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 25);
@@ -84,7 +84,7 @@ namespace BD
             // col_cb
             // 
             this.col_cb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.col_cb.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.col_cb.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.col_cb.FormattingEnabled = true;
             this.col_cb.Location = new System.Drawing.Point(152, 88);
             this.col_cb.Name = "col_cb";
@@ -95,7 +95,7 @@ namespace BD
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.label3.Location = new System.Drawing.Point(40, 144);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 25);
@@ -104,7 +104,7 @@ namespace BD
             // 
             // value
             // 
-            this.value.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.value.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.value.Location = new System.Drawing.Point(152, 144);
             this.value.Name = "value";
             this.value.Size = new System.Drawing.Size(250, 29);
@@ -123,6 +123,7 @@ namespace BD
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Action_button);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FieldForm";
             this.Text = "FieldDelete";

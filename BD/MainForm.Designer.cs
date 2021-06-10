@@ -29,10 +29,11 @@ namespace BD
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Add_button = new System.Windows.Forms.Button();
             this.delete_button = new System.Windows.Forms.Button();
             this.Heading_label = new System.Windows.Forms.Label();
@@ -153,10 +154,10 @@ namespace BD
             // Add_button
             // 
             this.Add_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Add_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Add_button.Location = new System.Drawing.Point(992, 96);
+            this.Add_button.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Add_button.Location = new System.Drawing.Point(1072, 109);
             this.Add_button.Name = "Add_button";
-            this.Add_button.Size = new System.Drawing.Size(176, 55);
+            this.Add_button.Size = new System.Drawing.Size(178, 62);
             this.Add_button.TabIndex = 1;
             this.Add_button.Text = "Добавление";
             this.Add_button.UseVisualStyleBackColor = true;
@@ -166,10 +167,10 @@ namespace BD
             // 
             this.delete_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.delete_button.Enabled = false;
-            this.delete_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.delete_button.Location = new System.Drawing.Point(992, 576);
+            this.delete_button.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.delete_button.Location = new System.Drawing.Point(1072, 653);
             this.delete_button.Name = "delete_button";
-            this.delete_button.Size = new System.Drawing.Size(176, 55);
+            this.delete_button.Size = new System.Drawing.Size(178, 62);
             this.delete_button.TabIndex = 1;
             this.delete_button.Text = "Удаление";
             this.delete_button.UseVisualStyleBackColor = true;
@@ -178,10 +179,10 @@ namespace BD
             // Heading_label
             // 
             this.Heading_label.AutoSize = true;
-            this.Heading_label.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Heading_label.Location = new System.Drawing.Point(448, 48);
+            this.Heading_label.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Heading_label.Location = new System.Drawing.Point(464, 56);
             this.Heading_label.Name = "Heading_label";
-            this.Heading_label.Size = new System.Drawing.Size(111, 30);
+            this.Heading_label.Size = new System.Drawing.Size(128, 32);
             this.Heading_label.TabIndex = 5;
             this.Heading_label.Text = "Выставки";
             // 
@@ -189,10 +190,10 @@ namespace BD
             // 
             this.Change_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Change_button.Enabled = false;
-            this.Change_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Change_button.Location = new System.Drawing.Point(992, 176);
+            this.Change_button.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Change_button.Location = new System.Drawing.Point(1072, 199);
             this.Change_button.Name = "Change_button";
-            this.Change_button.Size = new System.Drawing.Size(176, 55);
+            this.Change_button.Size = new System.Drawing.Size(178, 62);
             this.Change_button.TabIndex = 1;
             this.Change_button.Text = "Редактирование";
             this.Change_button.UseVisualStyleBackColor = true;
@@ -200,7 +201,7 @@ namespace BD
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Tables_item,
@@ -210,7 +211,7 @@ namespace BD
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(1184, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(1264, 33);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -222,34 +223,34 @@ namespace BD
             this.Exhibits_item,
             this.Museums_item});
             this.Tables_item.Name = "Tables_item";
-            this.Tables_item.Size = new System.Drawing.Size(85, 25);
+            this.Tables_item.Size = new System.Drawing.Size(100, 29);
             this.Tables_item.Text = "Таблицы";
             // 
             // Exhibitions_item
             // 
             this.Exhibitions_item.Name = "Exhibitions_item";
-            this.Exhibitions_item.Size = new System.Drawing.Size(225, 26);
+            this.Exhibitions_item.Size = new System.Drawing.Size(262, 30);
             this.Exhibitions_item.Text = "Выставки";
             this.Exhibitions_item.Click += new System.EventHandler(this.Exhibitions_item_Click);
             // 
             // Participation_item
             // 
             this.Participation_item.Name = "Participation_item";
-            this.Participation_item.Size = new System.Drawing.Size(225, 26);
+            this.Participation_item.Size = new System.Drawing.Size(262, 30);
             this.Participation_item.Text = "Участие в выставках";
             this.Participation_item.Click += new System.EventHandler(this.Participation_item_Click);
             // 
             // Exhibits_item
             // 
             this.Exhibits_item.Name = "Exhibits_item";
-            this.Exhibits_item.Size = new System.Drawing.Size(225, 26);
+            this.Exhibits_item.Size = new System.Drawing.Size(262, 30);
             this.Exhibits_item.Text = "Экпонаты";
             this.Exhibits_item.Click += new System.EventHandler(this.Exhibits_item_Click);
             // 
             // Museums_item
             // 
             this.Museums_item.Name = "Museums_item";
-            this.Museums_item.Size = new System.Drawing.Size(225, 26);
+            this.Museums_item.Size = new System.Drawing.Size(262, 30);
             this.Museums_item.Text = "Музеи";
             this.Museums_item.Click += new System.EventHandler(this.Museums_item_Click);
             // 
@@ -264,55 +265,55 @@ namespace BD
             this.Cities_item,
             this.Countries_item});
             this.Directories_item.Name = "Directories_item";
-            this.Directories_item.Size = new System.Drawing.Size(119, 25);
+            this.Directories_item.Size = new System.Drawing.Size(142, 29);
             this.Directories_item.Text = "Справочники";
             // 
             // Exhibition_types_item
             // 
             this.Exhibition_types_item.Name = "Exhibition_types_item";
-            this.Exhibition_types_item.Size = new System.Drawing.Size(218, 26);
+            this.Exhibition_types_item.Size = new System.Drawing.Size(251, 30);
             this.Exhibition_types_item.Text = "Типы выставок";
             this.Exhibition_types_item.Click += new System.EventHandler(this.Exhibition_types_item_Click);
             // 
             // Exhibition_themes_item
             // 
             this.Exhibition_themes_item.Name = "Exhibition_themes_item";
-            this.Exhibition_themes_item.Size = new System.Drawing.Size(218, 26);
+            this.Exhibition_themes_item.Size = new System.Drawing.Size(251, 30);
             this.Exhibition_themes_item.Text = "Тематики выставок";
             this.Exhibition_themes_item.Click += new System.EventHandler(this.Exhibition_themes_item_Click);
             // 
             // Organizers_item
             // 
             this.Organizers_item.Name = "Organizers_item";
-            this.Organizers_item.Size = new System.Drawing.Size(218, 26);
+            this.Organizers_item.Size = new System.Drawing.Size(251, 30);
             this.Organizers_item.Text = "Организаторы";
             this.Organizers_item.Click += new System.EventHandler(this.Organizers_item_Click);
             // 
             // Authors_item
             // 
             this.Authors_item.Name = "Authors_item";
-            this.Authors_item.Size = new System.Drawing.Size(218, 26);
+            this.Authors_item.Size = new System.Drawing.Size(251, 30);
             this.Authors_item.Text = "Авторы";
             this.Authors_item.Click += new System.EventHandler(this.Authors_item_Click);
             // 
             // Exhibit_types_item
             // 
             this.Exhibit_types_item.Name = "Exhibit_types_item";
-            this.Exhibit_types_item.Size = new System.Drawing.Size(218, 26);
+            this.Exhibit_types_item.Size = new System.Drawing.Size(251, 30);
             this.Exhibit_types_item.Text = "Типы экспонатов";
             this.Exhibit_types_item.Click += new System.EventHandler(this.Exhibit_types_item_Click);
             // 
             // Cities_item
             // 
             this.Cities_item.Name = "Cities_item";
-            this.Cities_item.Size = new System.Drawing.Size(218, 26);
+            this.Cities_item.Size = new System.Drawing.Size(251, 30);
             this.Cities_item.Text = "Города";
             this.Cities_item.Click += new System.EventHandler(this.Cities_item_Click);
             // 
             // Countries_item
             // 
             this.Countries_item.Name = "Countries_item";
-            this.Countries_item.Size = new System.Drawing.Size(218, 26);
+            this.Countries_item.Size = new System.Drawing.Size(251, 30);
             this.Countries_item.Text = "Страны";
             this.Countries_item.Click += new System.EventHandler(this.Countries_item_Click);
             // 
@@ -322,7 +323,7 @@ namespace BD
             this.EasyQueries,
             this.HardQueries});
             this.Queries_item.Name = "Queries_item";
-            this.Queries_item.Size = new System.Drawing.Size(84, 25);
+            this.Queries_item.Size = new System.Drawing.Size(99, 29);
             this.Queries_item.Text = "Запросы";
             // 
             // EasyQueries
@@ -340,55 +341,55 @@ namespace BD
             this.Query10,
             this.QueryC});
             this.EasyQueries.Name = "EasyQueries";
-            this.EasyQueries.Size = new System.Drawing.Size(211, 26);
+            this.EasyQueries.Size = new System.Drawing.Size(243, 30);
             this.EasyQueries.Text = "Простые запросы";
             // 
             // Query1
             // 
             this.Query1.Name = "Query1";
-            this.Query1.Size = new System.Drawing.Size(850, 26);
+            this.Query1.Size = new System.Drawing.Size(1017, 30);
             this.Query1.Text = "1) Вывести все экспонаты заданного типа";
             this.Query1.Click += new System.EventHandler(this.Query1_Click);
             // 
             // Query2
             // 
             this.Query2.Name = "Query2";
-            this.Query2.Size = new System.Drawing.Size(850, 26);
+            this.Query2.Size = new System.Drawing.Size(1017, 30);
             this.Query2.Text = "2) Вывести все участия экспонатов в выставках по названию экспоната";
             this.Query2.Click += new System.EventHandler(this.Query2_Click);
             // 
             // Query3
             // 
             this.Query3.Name = "Query3";
-            this.Query3.Size = new System.Drawing.Size(850, 26);
+            this.Query3.Size = new System.Drawing.Size(1017, 30);
             this.Query3.Text = "3) Вывести информацию о музеях по вводимому году создания";
             this.Query3.Click += new System.EventHandler(this.Query3_Click);
             // 
             // Query4
             // 
             this.Query4.Name = "Query4";
-            this.Query4.Size = new System.Drawing.Size(850, 26);
+            this.Query4.Size = new System.Drawing.Size(1017, 30);
             this.Query4.Text = "4) Вывести все выставки, которые начались в период с – по";
             this.Query4.Click += new System.EventHandler(this.Query4_Click);
             // 
             // Query5
             // 
             this.Query5.Name = "Query5";
-            this.Query5.Size = new System.Drawing.Size(850, 26);
+            this.Query5.Size = new System.Drawing.Size(1017, 30);
             this.Query5.Text = "5) Вывести названия выставок и страну в которой они проходили";
             this.Query5.Click += new System.EventHandler(this.Query5_Click);
             // 
             // Query6
             // 
             this.Query6.Name = "Query6";
-            this.Query6.Size = new System.Drawing.Size(850, 26);
+            this.Query6.Size = new System.Drawing.Size(1017, 30);
             this.Query6.Text = "6) Вывести информацию об экспонате и тематики выставок в которых он участвовал";
             this.Query6.Click += new System.EventHandler(this.Query6_Click);
             // 
             // Query7
             // 
             this.Query7.Name = "Query7";
-            this.Query7.Size = new System.Drawing.Size(850, 26);
+            this.Query7.Size = new System.Drawing.Size(1017, 30);
             this.Query7.Text = "7) Вывести информацию об экспонате, название музея, которому он принадлежит и фор" +
     "му собственности";
             this.Query7.Click += new System.EventHandler(this.Query7_Click);
@@ -396,14 +397,14 @@ namespace BD
             // Query8
             // 
             this.Query8.Name = "Query8";
-            this.Query8.Size = new System.Drawing.Size(850, 26);
+            this.Query8.Size = new System.Drawing.Size(1017, 30);
             this.Query8.Text = "8) Вывести информацию о городах, в которых нет музеев";
             this.Query8.Click += new System.EventHandler(this.Query8_Click);
             // 
             // Query9
             // 
             this.Query9.Name = "Query9";
-            this.Query9.Size = new System.Drawing.Size(850, 26);
+            this.Query9.Size = new System.Drawing.Size(1017, 30);
             this.Query9.Text = "9) Вывести экспонаты со страховой ценой, больше заданной и музеи, которым они при" +
     "надлежат";
             this.Query9.Click += new System.EventHandler(this.Query9_Click);
@@ -411,14 +412,14 @@ namespace BD
             // Query10
             // 
             this.Query10.Name = "Query10";
-            this.Query10.Size = new System.Drawing.Size(850, 26);
+            this.Query10.Size = new System.Drawing.Size(1017, 30);
             this.Query10.Text = "10) Вывести города и названия выставок, проходивших в них в период с-по";
             this.Query10.Click += new System.EventHandler(this.Query10_Click);
             // 
             // QueryC
             // 
             this.QueryC.Name = "QueryC";
-            this.QueryC.Size = new System.Drawing.Size(850, 26);
+            this.QueryC.Size = new System.Drawing.Size(1017, 30);
             this.QueryC.Text = "c) Определить расходы на организацию каждой выставки за период времени (с_ по_ )";
             this.QueryC.Click += new System.EventHandler(this.QueryC_Click);
             // 
@@ -434,20 +435,20 @@ namespace BD
             this.QueryB1,
             this.QueryB2});
             this.HardQueries.Name = "HardQueries";
-            this.HardQueries.Size = new System.Drawing.Size(211, 26);
+            this.HardQueries.Size = new System.Drawing.Size(243, 30);
             this.HardQueries.Text = "Сложные запросы";
             // 
             // Query11
             // 
             this.Query11.Name = "Query11";
-            this.Query11.Size = new System.Drawing.Size(1051, 26);
+            this.Query11.Size = new System.Drawing.Size(1262, 30);
             this.Query11.Text = "11) Вывести количество музеев в каждом городе";
             this.Query11.Click += new System.EventHandler(this.Query11_Click);
             // 
             // Query12
             // 
             this.Query12.Name = "Query12";
-            this.Query12.Size = new System.Drawing.Size(1051, 26);
+            this.Query12.Size = new System.Drawing.Size(1262, 30);
             this.Query12.Text = "12) Вывести организаторов, которые проводили выставки в период с_ по_ и количеств" +
     "о выставок";
             this.Query12.Click += new System.EventHandler(this.Query12_Click);
@@ -455,7 +456,7 @@ namespace BD
             // Query13
             // 
             this.Query13.Name = "Query13";
-            this.Query13.Size = new System.Drawing.Size(1051, 26);
+            this.Query13.Size = new System.Drawing.Size(1262, 30);
             this.Query13.Text = "13) Вывести названия выставок с общим количеством посетителей, превышающим заданн" +
     "ое значение";
             this.Query13.Click += new System.EventHandler(this.Query13_Click);
@@ -463,7 +464,7 @@ namespace BD
             // Query14
             // 
             this.Query14.Name = "Query14";
-            this.Query14.Size = new System.Drawing.Size(1051, 26);
+            this.Query14.Size = new System.Drawing.Size(1262, 30);
             this.Query14.Text = "14) Вывести авторов и общую ценность экспонатов, год реставрации которых меньше з" +
     "аданного, а общая ценность больше заданной";
             this.Query14.Click += new System.EventHandler(this.Query14_Click);
@@ -471,7 +472,7 @@ namespace BD
             // Query15
             // 
             this.Query15.Name = "Query15";
-            this.Query15.Size = new System.Drawing.Size(1051, 26);
+            this.Query15.Size = new System.Drawing.Size(1262, 30);
             this.Query15.Text = "15) Вывести выставки, маркетинговые затраты на которые выше среднего значения по " +
     "всем выставкам";
             this.Query15.Click += new System.EventHandler(this.Query15_Click);
@@ -479,7 +480,7 @@ namespace BD
             // Query16
             // 
             this.Query16.Name = "Query16";
-            this.Query16.Size = new System.Drawing.Size(1051, 26);
+            this.Query16.Size = new System.Drawing.Size(1262, 30);
             this.Query16.Text = "16) Выдать информацию о музеях, у которых год создания меньше среднего года созда" +
     "ния среди всех музеев";
             this.Query16.Click += new System.EventHandler(this.Query16_Click);
@@ -487,31 +488,31 @@ namespace BD
             // QueryB1
             // 
             this.QueryB1.Name = "QueryB1";
-            this.QueryB1.Size = new System.Drawing.Size(1051, 26);
+            this.QueryB1.Size = new System.Drawing.Size(1262, 30);
             this.QueryB1.Text = "b) Определить среднее количество посетителей по каждой выставке";
             this.QueryB1.Click += new System.EventHandler(this.QueryB1_Click);
             // 
             // QueryB2
             // 
             this.QueryB2.Name = "QueryB2";
-            this.QueryB2.Size = new System.Drawing.Size(1051, 26);
+            this.QueryB2.Size = new System.Drawing.Size(1262, 30);
             this.QueryB2.Text = "b) Определить среднее количество посетителей по каждой стране";
             this.QueryB2.Click += new System.EventHandler(this.QueryB2_Click);
             // 
             // Reports_item
             // 
             this.Reports_item.Name = "Reports_item";
-            this.Reports_item.Size = new System.Drawing.Size(76, 25);
+            this.Reports_item.Size = new System.Drawing.Size(88, 29);
             this.Reports_item.Text = "Отчеты";
             // 
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(24, 640);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(24, 728);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(193, 25);
+            this.label4.Size = new System.Drawing.Size(213, 30);
             this.label4.TabIndex = 7;
             this.label4.Text = "Количество записей:";
             // 
@@ -519,10 +520,10 @@ namespace BD
             // 
             this.count_label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.count_label.AutoSize = true;
-            this.count_label.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.count_label.Location = new System.Drawing.Point(216, 640);
+            this.count_label.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.count_label.Location = new System.Drawing.Point(232, 728);
             this.count_label.Name = "count_label";
-            this.count_label.Size = new System.Drawing.Size(22, 25);
+            this.count_label.Size = new System.Drawing.Size(24, 30);
             this.count_label.TabIndex = 8;
             this.count_label.Text = "0";
             // 
@@ -913,25 +914,33 @@ namespace BD
             this.Main_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Main_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            this.Main_table.ColumnHeadersHeight = 28;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Main_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.Main_table.ColumnHeadersHeight = 35;
             this.Main_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.Main_table.Location = new System.Drawing.Point(24, 96);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Main_table.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Main_table.Location = new System.Drawing.Point(24, 109);
             this.Main_table.Name = "Main_table";
             this.Main_table.ReadOnly = true;
             this.Main_table.RowHeadersVisible = false;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Main_table.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Main_table.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.Main_table.RowTemplate.Height = 25;
             this.Main_table.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Main_table.Size = new System.Drawing.Size(952, 540);
+            this.Main_table.Size = new System.Drawing.Size(1032, 612);
             this.Main_table.TabIndex = 0;
             this.Main_table.SelectionChanged += new System.EventHandler(this.Main_table_SelectionChanged);
             // 
@@ -943,25 +952,25 @@ namespace BD
             this.Directories_table.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Directories_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.Directories_table.ColumnHeadersHeight = 28;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Directories_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.Directories_table.ColumnHeadersHeight = 35;
             this.Directories_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.Directories_table.Location = new System.Drawing.Point(24, 96);
+            this.Directories_table.Location = new System.Drawing.Point(24, 109);
             this.Directories_table.Name = "Directories_table";
             this.Directories_table.ReadOnly = true;
             this.Directories_table.RowHeadersVisible = false;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Directories_table.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.Directories_table.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.Directories_table.RowTemplate.Height = 25;
             this.Directories_table.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Directories_table.Size = new System.Drawing.Size(952, 540);
+            this.Directories_table.Size = new System.Drawing.Size(1032, 612);
             this.Directories_table.TabIndex = 0;
             this.Directories_table.Visible = false;
             this.Directories_table.SelectionChanged += new System.EventHandler(this.Directories_table_SelectionChanged);
@@ -971,10 +980,10 @@ namespace BD
             this.StandartRB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.StandartRB.AutoSize = true;
             this.StandartRB.Checked = true;
-            this.StandartRB.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StandartRB.Location = new System.Drawing.Point(992, 504);
+            this.StandartRB.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.StandartRB.Location = new System.Drawing.Point(1076, 576);
             this.StandartRB.Name = "StandartRB";
-            this.StandartRB.Size = new System.Drawing.Size(141, 29);
+            this.StandartRB.Size = new System.Drawing.Size(153, 34);
             this.StandartRB.TabIndex = 9;
             this.StandartRB.TabStop = true;
             this.StandartRB.Text = "Выборочное";
@@ -985,10 +994,10 @@ namespace BD
             // 
             this.FieldRB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.FieldRB.AutoSize = true;
-            this.FieldRB.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FieldRB.Location = new System.Drawing.Point(992, 536);
+            this.FieldRB.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FieldRB.Location = new System.Drawing.Point(1076, 616);
             this.FieldRB.Name = "FieldRB";
-            this.FieldRB.Size = new System.Drawing.Size(107, 29);
+            this.FieldRB.Size = new System.Drawing.Size(116, 34);
             this.FieldRB.TabIndex = 10;
             this.FieldRB.Text = "По полю";
             this.FieldRB.UseVisualStyleBackColor = true;
@@ -997,10 +1006,10 @@ namespace BD
             // SearchButton
             // 
             this.SearchButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.SearchButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SearchButton.Location = new System.Drawing.Point(992, 376);
+            this.SearchButton.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SearchButton.Location = new System.Drawing.Point(1072, 426);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(176, 55);
+            this.SearchButton.Size = new System.Drawing.Size(178, 62);
             this.SearchButton.TabIndex = 1;
             this.SearchButton.Text = "Поиск";
             this.SearchButton.UseVisualStyleBackColor = true;
@@ -1008,10 +1017,10 @@ namespace BD
             // 
             // Generate_button
             // 
-            this.Generate_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Generate_button.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Generate_button.Location = new System.Drawing.Point(24, 48);
             this.Generate_button.Name = "Generate_button";
-            this.Generate_button.Size = new System.Drawing.Size(150, 40);
+            this.Generate_button.Size = new System.Drawing.Size(150, 50);
             this.Generate_button.TabIndex = 11;
             this.Generate_button.Text = "Генерация";
             this.Generate_button.UseVisualStyleBackColor = true;
@@ -1019,10 +1028,10 @@ namespace BD
             // 
             // Clear_button
             // 
-            this.Clear_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Clear_button.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Clear_button.Location = new System.Drawing.Point(192, 48);
             this.Clear_button.Name = "Clear_button";
-            this.Clear_button.Size = new System.Drawing.Size(160, 40);
+            this.Clear_button.Size = new System.Drawing.Size(176, 50);
             this.Clear_button.TabIndex = 11;
             this.Clear_button.Text = "Очистка таблиц";
             this.Clear_button.UseVisualStyleBackColor = true;
@@ -1031,10 +1040,10 @@ namespace BD
             // View_button
             // 
             this.View_button.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.View_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.View_button.Location = new System.Drawing.Point(992, 304);
+            this.View_button.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.View_button.Location = new System.Drawing.Point(1072, 345);
             this.View_button.Name = "View_button";
-            this.View_button.Size = new System.Drawing.Size(176, 55);
+            this.View_button.Size = new System.Drawing.Size(178, 62);
             this.View_button.TabIndex = 1;
             this.View_button.Text = "Просмотр";
             this.View_button.UseVisualStyleBackColor = true;
@@ -1042,9 +1051,9 @@ namespace BD
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 681);
+            this.ClientSize = new System.Drawing.Size(1264, 772);
             this.Controls.Add(this.Clear_button);
             this.Controls.Add(this.Generate_button);
             this.Controls.Add(this.FieldRB);
@@ -1058,11 +1067,11 @@ namespace BD
             this.Controls.Add(this.Add_button);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.Heading_label);
-            this.Controls.Add(this.Main_table);
             this.Controls.Add(this.Directories_table);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Controls.Add(this.Main_table);
+            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuStrip = this.menuStrip1;
-            this.MinimumSize = new System.Drawing.Size(1000, 720);
+            this.MinimumSize = new System.Drawing.Size(1000, 811);
             this.Name = "MainForm";
             this.Text = "Главная";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);

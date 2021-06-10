@@ -58,7 +58,7 @@ namespace BD
             {
                 textBox2.Visible = false;
                 label2.Visible = false;
-                label1.Location = new Point(label1.Location.X - 105, label1.Location.Y);
+                label1.Location = new Point(label1.Location.X - 115, label1.Location.Y);
                 switch (QueryType)
                 {
                     case 0:
@@ -67,6 +67,7 @@ namespace BD
                         break;
                     case 1:
                         label1.Text = "Название:";
+                        label1.Location = new Point(label1.Location.X +20, label1.Location.Y);
                         Header.Text = "Вывести все участия экспонатов в выставках по названию экспоната";
                         break;
                     case 2:
@@ -75,6 +76,7 @@ namespace BD
                         break;
                     case 8:
                         label1.Text = "Цена:";
+                        label1.Location = new Point(label1.Location.X + 55, label1.Location.Y);
                         Header.Text = "Вывести экспонаты со страховой ценой, больше заданной и музеи, которым они \nпринадлежат";
                         break;
                     case 12:

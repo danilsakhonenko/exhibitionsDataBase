@@ -24,7 +24,7 @@ namespace BD
                 case "Страны":
                     currenttable = new Countries(textBox1);
                     label2.Text = "Страна:";
-                    label2.Location = new Point(textBox1.Location.X - 85, label2.Location.Y);
+                    label2.Location = new Point(textBox1.Location.X - 90, label2.Location.Y);
                     break;
                 case "Города":
                     comboBox1.Visible = label1.Visible = true;
@@ -34,7 +34,7 @@ namespace BD
                     break;
                 case "Типы экспонатов":
                     label2.Text = "Тип экпоната:";
-                    label2.Location = new Point(textBox1.Location.X - 140, label2.Location.Y);
+                    label2.Location = new Point(textBox1.Location.X - 160, label2.Location.Y);
                     currenttable = new Exhibit_types(textBox1);
                     break;
                 case "Авторы":
@@ -43,17 +43,17 @@ namespace BD
                     break;
                 case "Организаторы выставок":
                     label2.Text = "Организатор:";
-                    label2.Location = new Point(textBox1.Location.X - 130, label2.Location.Y);
+                    label2.Location = new Point(textBox1.Location.X - 145, label2.Location.Y);
                     currenttable = new Organizers(textBox1);
                     break;
                 case "Тематики выставок":
                     label2.Text = "Тематика:";
-                    label2.Location = new Point(textBox1.Location.X - 105, label2.Location.Y);
+                    label2.Location = new Point(textBox1.Location.X - 115, label2.Location.Y);
                     currenttable = new Exhibition_aims(textBox1);
                     break;
                 case "Типы выставок":
                     label2.Text = "Тип выставки:";
-                    label2.Location = new Point(textBox1.Location.X - 140, label2.Location.Y);
+                    label2.Location = new Point(textBox1.Location.X - 160, label2.Location.Y);
                     currenttable = new Exhibition_types(textBox1);
                     break;
             }
